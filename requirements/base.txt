@@ -1,0 +1,5 @@
+# async requests
+aiohttp[speedups]
+
+# Fastapi
+fastapi[all]
