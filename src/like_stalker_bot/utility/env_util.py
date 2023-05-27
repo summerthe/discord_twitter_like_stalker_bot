@@ -1,7 +1,7 @@
 from pathlib import Path
 from typing import Any
 
-from dotenv import dotenv_values
+from environs import Env
 
 
 def set_env() -> dict[str, Any]:
@@ -13,5 +13,6 @@ def set_env() -> dict[str, Any]:
     """
     BASE_DIR = Path().resolve().parent
     ENV_PATH = BASE_DIR / ".env"
-    env = dotenv_values(ENV_PATH)  # take environment variables from .env.
+    env = Env()
+    env.read_env(ENV_PATH)
     return env

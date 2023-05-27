@@ -2,7 +2,7 @@
 
 See:
 https://packaging.python.org/guides/distributing-packages-using-setuptools/
-https://github.com/pypa/project_name
+https://github.com/pypa/discord_twitter_like_checker_bot
 """
 
 import pathlib
@@ -23,14 +23,14 @@ setup(
     # package, this name will be registered for you. It will determine how
     # users can install this project, e.g.:
     #
-    # $ pip install project_name
+    # $ pip install discord_twitter_like_checker_bot
     #
-    # And where it will live on PyPI: https://pypi.org/project/project_name/
+    # And where it will live on PyPI: https://pypi.org/project/discord_twitter_like_checker_bot/
     #
     # There are some restrictions on what makes a valid project name
     # specification here:
     # https://packaging.python.org/specifications/core-metadata/#name
-    name="project_name",  # Required
+    name="discord_twitter_like_checker_bot",  # Required
     # Versions should comply with PEP 440:
     # https://www.python.org/dev/peps/pep-0440/
     #
@@ -66,7 +66,7 @@ setup(
     #
     # This field corresponds to the "Home-Page" metadata field:
     # https://packaging.python.org/specifications/core-metadata/#home-page-optional
-    url="https://github.com/pypa/project_name",  # Optional
+    url="https://github.com/pypa/discord_twitter_like_checker_bot",  # Optional
     # This should be your name or the name of the organization which owns the
     # project.
     author="A. Random Developer",  # Optional
@@ -133,7 +133,7 @@ setup(
     # dependencies). Users will be able to install these using the "extras"
     # syntax, for example:
     #
-    #   $ pip install project_name[dev]
+    #   $ pip install discord_twitter_like_checker_bot[dev]
     #
     # Similar to `install_requires` above, these must be valid existing
     # projects.
@@ -174,9 +174,9 @@ setup(
     # maintainers, and where to support the project financially. The key is
     # what's used to render the link text on PyPI.
     project_urls={  # Optional
-        "Bug Reports": "https://github.com/pypa/project_name/issues",
+        "Bug Reports": "https://github.com/pypa/discord_twitter_like_checker_bot/issues",
         "Funding": "https://donate.pypi.org",
         "Say Thanks!": "http://saythanks.io/to/example",
-        "Source": "https://github.com/pypa/project_name/",
+        "Source": "https://github.com/pypa/discord_twitter_like_checker_bot/",
     },
 )
